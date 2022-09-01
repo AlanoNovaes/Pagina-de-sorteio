@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+
+        function sortear(){
+
+            
+            let np = 100;
+            // np = numero de pessoas 
+
+            let ns = Math.round(Math.random() * np);
+            // ns numero sorteado
+            document.getElementById("d").innerHTML = ns
+            // d é a id que usei pra o numero sorteado
+        }
+
+    
+    </script>
+
+</head>
+
+<body>
+    <h1 id="d"></h1>
+   <button onclick="sortear()"> Sortear </button>
+</body>
+
+</html>
